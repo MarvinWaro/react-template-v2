@@ -16,9 +16,9 @@ export default function AppHeaderLayout({
             <AppContent>{children}</AppContent>
             <footer className="flex flex-col items-center justify-center gap-2 px-5 py-10 text-center text-xs text-gray-500 md:text-sm">
                 <div>
-                    <span className="font-semibold">Student Affairs Servicing</span>
+                    <span className="font-semibold">Placeholder for the client</span>
                     <span className="mx-1">&bull;</span>
-                    Empowering student services and compliance management
+                    Placeholder for the client
                 </div>
                 {/* <div className="flex flex-wrap items-center justify-center gap-1">
                     <span>Built with</span>
@@ -30,7 +30,7 @@ export default function AppHeaderLayout({
                         shadcn/ui
                     </a>
                 </div> */}
-                <div className="mt-1 text-xs text-gray-400">&copy; {new Date().getFullYear()} CHEDRO XII. All rights reserved.</div>
+                <div className="mt-1 text-xs text-gray-400">&copy; {new Date().getFullYear()} Company Name. All rights reserved.</div>
             </footer>
         </AppShell>
     );
